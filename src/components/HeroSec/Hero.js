@@ -76,16 +76,13 @@ export function HeroSection() {
         <div className={classes.inner}>
           <div className={classes.content}>
             <Title className={classes.title}>
-              Abdulgafar Tajudeen <br /> A{" "}
-              <span className={classes.highlight}>Frontend</span> Developer
+              Arafat Akata <br /> A{" "}
+              <span className={classes.highlight}>Frontend</span> Engineer
             </Title>
             <Text color="dimmed" mt="md">
-              I am an Innovative Frontend Developer with a passion for building
-              web apps for Personal and Industrial uses. Front-End Developer
-              with proven experience at Crescent Cafe, Omni-energy, and
-              DeepInt'l ltd in helping companies create and maintain a better
-              code base for reusability. Capable of continuous learning from
-              senior developers while still nurturing beginners.
+             <p>I'm a  frontend developer with product management experience. I've worked on products on wealth management platform, e-commerce platform, and cryptocurrency product.
+                I'm passionate about technology for solving business and humanitarian problems.  I'm a team player, faithful, funny, mission-driven, and a purposeful person, 
+                I like to get my hand dirty by working on challenging projects. </p>
             </Text>
 
             <List
@@ -102,10 +99,7 @@ export function HeroSection() {
                 <b>Developer with</b> – Strong ability to problem-solve, debug,
                 and understand pertinent performance metrics.
               </List.Item>
-              <List.Item>
-                <b>Developer with</b> – Intermediate knowledge of English and
-                the ability to communicate.
-              </List.Item>
+             
               <List.Item>
                 <b>Developer with</b> – Opportunity to work with the brightest
                 minds inside and outside of my field.

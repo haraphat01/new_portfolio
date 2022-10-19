@@ -37,12 +37,6 @@ export function Skills() {
           <Center>
             <span className={classes.highlight}>Skills</span>
           </Center>
-          <Text size="sm" color="dimmed" className={classes.text}>
-            Meticulous web developer with over 2 years of front end experience
-            and passion for responsive website design and a firm believer in the
-            mobile-first approach. UDACITY certified. Implemented new responsive
-            website approach which increased mobile traffic.
-          </Text>
           <Card.Section>
             <Carousel
               slideSize="40%"
@@ -116,28 +110,10 @@ export function Skills() {
               <Carousel.Slide>
                 <Center>
                   <RingProgress
-                    sections={[{ value: 60, color: "ocean" }]}
-                    label={
-                      <Text color="ocean" weight={700} align="center" size="xl">
-                        60%
-                      </Text>
-                    }
-                    mt={40}
-                  />
-                </Center>
-                <Center>
-                  <Text color="ocean" style={{ fontFamily: "Open Sans" }}>
-                    React Native
-                  </Text>
-                </Center>
-              </Carousel.Slide>
-              <Carousel.Slide>
-                <Center>
-                  <RingProgress
                     sections={[{ value: 70, color: "ocean" }]}
                     label={
                       <Text color="ocean" weight={700} align="center" size="xl">
-                        70%
+                        80%
                       </Text>
                     }
                     mt={40}
@@ -155,7 +131,7 @@ export function Skills() {
                     sections={[{ value: 50, color: "ocean" }]}
                     label={
                       <Text color="ocean" weight={700} align="center" size="xl">
-                        50%
+                        80%
                       </Text>
                     }
                     mt={40}
@@ -163,7 +139,7 @@ export function Skills() {
                 </Center>
                 <Center>
                   <Text color="ocean" style={{ fontFamily: "Open Sans" }}>
-                    Recoil
+                    Git
                   </Text>
                 </Center>
               </Carousel.Slide>

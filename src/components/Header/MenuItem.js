@@ -13,7 +13,6 @@ const links = [
 
 export function MenuItem() {
   const { classes } = useStyles();
-
   const items = links.map((link) => {
     return (
       <a

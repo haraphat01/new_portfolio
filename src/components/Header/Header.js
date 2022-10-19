@@ -28,7 +28,7 @@ export function HeaderAction() {
             className={classes.burger}
             size="sm"
           />
-          <Text className={classes.text}>Clevertag</Text>
+          <Text className={classes.text}>Arafat</Text>
         </Group>
         <MenuItem />
         <SwitchToggle />
@@ -40,7 +40,7 @@ export function HeaderAction() {
               className={classes.btn}
               variant="outline"
             >
-              Let Connect
+              Connect with me
             </Button>
           </Popover.Target>
           <Popover.Dropdown>

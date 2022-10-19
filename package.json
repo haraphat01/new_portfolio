@@ -21,7 +21,7 @@
     "react-ga": "^3.3.0",
     "react-on-screen": "^2.1.1",
     "react-reveal": "^1.2.2",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^4.0.3",
     "react-zmage": "^0.8.5-beta.36",
     "vertical-timeline-component-for-react": "^1.0.7",
     "vertical-timeline-component-react": "3.0.3",
