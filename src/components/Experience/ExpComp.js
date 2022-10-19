@@ -5,7 +5,7 @@ function ExpComp() {
     <Timeline lineColor={"#ddd"}>
       <TimelineItem
         key="001"
-        dateText="February 2021 – July 2022"
+        dateText="February 2020 – July 2022"
         dateInnerStyle={{ background: "rgba(122, 209, 221, 1)" }}
         bodyContainerStyle={{
           background: "#fff",
