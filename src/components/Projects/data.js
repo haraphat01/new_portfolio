@@ -1,49 +1,17 @@
-import chatApp from "../../images/chatLandPage.png";
-import alan from "../../images/alan.jpeg";
-import flyo from "../../images/flyo.jpeg";
-import portfolio from "../../images/portfolio.jpeg";
-import twitterClone from "../../images/twitterClone.jpeg";
-import airbnbClone from "../../images/airbnbClone.jpeg";
-import cleverChat from "../../images/cleverChat.png";
-import thaabiAca from "../../images/thaabitAcad.png";
+
+import redus from "../../images/redus.png"
+import shooter from "../../images/shooter.png"
 
 export const personal = [
   {
-     src: portfolio,
-     desc: "This is a website build for thaabit",
+     src: redus,
+     desc: "This is an app made with redux-toolkit for state's management",
+     link: "https://benevolent-tarsier-e189cd.netlify.app"
   },
   {
-    src: airbnbClone,
-    desc: "This is a website build for thaabit",
-  },
-  {
-    src: alan,
-    desc: "This is a website build for thaabit",
-  },
-  {
-    src: flyo,
-    desc: "This is a website build for thaabit",
-  },
-  {
-    src: twitterClone,
-    desc: "This is a website build for thaabit",
-  },
+    src: shooter,
+    desc: "This game has 1 object - Kill as much virus as possible.",
+    link: "https://raw.githack.com/haraphat01/javascript/feature/index.html",
+  }
 
-];
-export const team = [
-  {
-    src: cleverChat,
-    desc: "This is a website build for thaabit",
-  },
-  {
-    src: chatApp,
-    desc: "This is a website build for thaabit",
-  },
-];
-export const other = [
-  {
-    src: thaabiAca,
-    desc: "This is a website build for thaabit",
-  },
-
-];
+]

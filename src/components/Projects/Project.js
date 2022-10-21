@@ -1,5 +1,7 @@
-import { Tabs, Container, Text, createStyles, Center, Card, Image } from "@mantine/core";
-import { other, personal, team } from "./data";
+import {Container, Text, createStyles, Center, Card, Image } from "@mantine/core";
+import { personal } from "./data";
+
+
 
 import "./style.css"
 
@@ -24,20 +26,12 @@ export function Project() {
       <Container mb={30} id="pro" size="lg">
         <Center>
           <Text mb={20} className={classes.highlight}>
-            Project
+            Projects
           </Text>
+          
         </Center>
-        <Tabs color="cyan" variant="pills" radius="md" defaultValue="client">
-          <Tabs.List position="center" grow="true">
-            <Tabs.Tab value="personal" >
-              Personal Project
-            </Tabs.Tab>
-            <Tabs.Tab value="client">Clients Project</Tabs.Tab>
-            <Tabs.Tab value="team">Team Project</Tabs.Tab>
-          </Tabs.List>
-
-          <Tabs.Panel value="personal" pt="xs">
-            <div
+        
+        <div
               style={{
                 display: "flex",
                 flexWrap: "wrap",
@@ -45,87 +39,30 @@ export function Project() {
                 justifyContent: "center",
               }}
             >
+              
               {personal.map((data) => (
+             
                 <Card shadow="sm" p="lg" radius="md" withBorder>
-                  <Card.Section
+                   <Card.Section
                     style={{ cursor: "pointer" }}
                     className="container"
-                  >
-                    <Image
+                  >  
+                   <Image
                       src={data.src}
                       className="image"
                       height={200}
-                      alt="Norway"
+                      alt="homepage"
                     />
                     <div className="middle">
                       <Text className="text">{data.desc}</Text>
+                      <Text className="text"><a href={data.link} target="_blank">check the app</a></Text>
                     </div>
-                  </Card.Section>
-                </Card>
-              ))}
+                  </Card.Section>   
+                </Card>     
+               
+              ))}        
             </div>
-          </Tabs.Panel>
-
-          <Tabs.Panel value="team" pt="xs">
-            <div
-              style={{
-                display: "flex",
-                flexWrap: "wrap",
-                gap: "10px",
-                justifyContent: "center",
-              }}
-            >
-              {team.map((data) => (
-                <Card shadow="sm" p="lg" radius="md" withBorder>
-                  <Card.Section
-                    style={{ cursor: "pointer" }}
-                    className="container"
-                  >
-                    <Image
-                      src={data.src}
-                      className="image"
-                      height={200}
-                      alt="Norway"
-                    />
-                    <div className="middle">
-                      <Text className="text">{data.desc}</Text>
-                    </div>
-                  </Card.Section>
-                </Card>
-              ))}
-            </div>
-          </Tabs.Panel>
-
-          <Tabs.Panel value="client" pt="xs">
-            <div
-              style={{
-                display: "flex",
-                flexWrap: "wrap",
-                gap: "10px",
-                justifyContent: "center",
-              }}
-            >
-              {other.map((data) => (
-                <Card shadow="sm" p="lg" radius="md" withBorder>
-                  <Card.Section
-                    style={{ cursor: "pointer" }}
-                    className="container"
-                  >
-                    <Image
-                      src={data.src}
-                      className="image"
-                      height={200}
-                      alt="Norway"
-                    />
-                    <div className="middle">
-                      <Text className="text">{data.desc}</Text>
-                    </div>
-                  </Card.Section>
-                </Card>
-              ))}
-            </div>
-          </Tabs.Panel>
-        </Tabs>
+          
       </Container>
     </div>
   );

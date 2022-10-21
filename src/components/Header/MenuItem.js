@@ -8,7 +8,6 @@ const links = [
   { link: "#edu", label: "Education" },
   { link: "#exp", label: "Experience" },
   { link: "#pro", label: "Projects" },
-  { link: "/", label: "Blogs" },
 ];
 
 export function MenuItem() {
