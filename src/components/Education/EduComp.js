@@ -5,7 +5,7 @@ function EduComp() {
     <Timeline lineColor={"#ddd"}>
       <TimelineItem
         key="001"
-        dateText="August 2022 – October 2023"
+        dateText="August 2022 – July 2023"
         dateInnerStyle={{ background: "rgba(122, 209, 221, 1)" }}
         bodyContainerStyle={{
           background: "#fff",

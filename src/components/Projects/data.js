@@ -3,6 +3,7 @@ import redus from "../../images/redus.png"
 import pencil from "../../images/pencilChat.png"
 import pic from "../../images/pic.png"
 import biz from "../../images/bizz.png"
+import pencilwriter from "../../images/pencilwriter.png"
 
 export const personal = [
 
@@ -13,8 +14,8 @@ export const personal = [
   },
 
   {
-    src: redus,
-    desc: "This is an app made with redux-toolkit for state's management",
+    src: pencilwriter,
+    desc: "This is article writer app, submit a topic and the article will be written",
     link: "https://benevolent-tarsier-e189cd.netlify.app"
   },
 
@@ -28,7 +29,13 @@ export const personal = [
     src: biz,
     desc: "A platform to connect business buyer and seller, still in development",
     link: "https://bizzconnect.vercel.app/",
-  }
+  },
+  {
+    src: redus,
+    desc: "This is an app I made with redux-toolkit for state's management just for knowledge retention ",
+    link: "https://benevolent-tarsier-e189cd.netlify.app"
+  },
+
 
 
 ]

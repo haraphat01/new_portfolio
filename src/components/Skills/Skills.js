@@ -74,11 +74,18 @@ export function Skills() {
               <Carousel.Slide>
                 <Center>
                   <RingProgress
-                    sections={[{ value: 90, color: "ocean" }]}
+                    sections={[{ value: 100, color: "ocean" }]}
                     label={
-                      <Text color="ocean" weight={700} align="center" size="xl">
-                        90%
-                      </Text>
+                      <Center>
+                        <ThemeIcon
+                          color="ocean"
+                          variant="light"
+                          radius="xl"
+                          size="xl"
+                        >
+                          <IconCheck size={22} />
+                        </ThemeIcon>
+                      </Center>
                     }
                     mt={40}
                   />
@@ -92,11 +99,18 @@ export function Skills() {
               <Carousel.Slide>
                 <Center>
                   <RingProgress
-                    sections={[{ value: 90, color: "ocean" }]}
+                    sections={[{ value: 100, color: "ocean" }]}
                     label={
-                      <Text color="ocean" weight={700} align="center" size="xl">
-                        90%
-                      </Text>
+                      <Center>
+                        <ThemeIcon
+                          color="ocean"
+                          variant="light"
+                          radius="xl"
+                          size="xl"
+                        >
+                          <IconCheck size={22} />
+                        </ThemeIcon>
+                      </Center>
                     }
                     mt={40}
                   />
@@ -110,11 +124,18 @@ export function Skills() {
               <Carousel.Slide>
                 <Center>
                   <RingProgress
-                    sections={[{ value: 70, color: "ocean" }]}
+                    sections={[{ value: 100, color: "ocean" }]}
                     label={
-                      <Text color="ocean" weight={700} align="center" size="xl">
-                        80%
-                      </Text>
+                      <Center>
+                        <ThemeIcon
+                          color="ocean"
+                          variant="light"
+                          radius="xl"
+                          size="xl"
+                        >
+                          <IconCheck size={22} />
+                        </ThemeIcon>
+                      </Center>
                     }
                     mt={40}
                   />
@@ -128,11 +149,18 @@ export function Skills() {
               <Carousel.Slide>
                 <Center>
                   <RingProgress
-                    sections={[{ value: 50, color: "ocean" }]}
+                    sections={[{ value: 100, color: "ocean" }]}
                     label={
-                      <Text color="ocean" weight={700} align="center" size="xl">
-                        80%
-                      </Text>
+                      <Center>
+                        <ThemeIcon
+                          color="ocean"
+                          variant="light"
+                          radius="xl"
+                          size="xl"
+                        >
+                          <IconCheck size={22} />
+                        </ThemeIcon>
+                      </Center>
                     }
                     mt={40}
                   />
@@ -164,7 +192,7 @@ export function Skills() {
                 </Center>
                 <Center>
                   <Text color="ocean" style={{ fontFamily: "Open Sans" }}>
-                    HTML
+                    DevOps
                   </Text>
                 </Center>
               </Carousel.Slide>
