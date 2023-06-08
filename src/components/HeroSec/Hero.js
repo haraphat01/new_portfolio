@@ -76,13 +76,15 @@ export function HeroSection() {
         <div className={classes.inner}>
           <div className={classes.content}>
             <Title className={classes.title}>
+            
               Arafat Akata <br /> A{" "}
-              <span className={classes.highlight}>Frontend</span> Engineer
+              <span className={classes.highlight}>Software</span> Engineer
             </Title>
+            <br/>
             <Text color="dimmed" mt="md">
-             <p>I'm a  frontend developer with product management experience. I've worked on products on wealth management platform, e-commerce platform, and cryptocurrency product.
-                I'm passionate about technology for solving business and humanitarian problems.  I'm a team player, faithful, funny, mission-driven, and a purposeful person, 
-                I like to get my hand dirty by working on challenging projects. </p>
+             <p>Looking for a Frontend Developer with a unique skill set? Look no further! With experience in DevOps and software architecture, I can help your team deliver high-quality software efficiently.
+
+As a Frontend Developer, I've honed my skills in HTML, CSS, JavaScript, and React to create beautiful and functional user interfaces. But I also understand the entire software development lifecycle, and I'm well-versed in DevOps tools like Docker and Kubernetes.</p>
             </Text>
 
             <List
