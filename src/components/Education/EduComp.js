@@ -15,7 +15,7 @@ function EduComp() {
         }}
       >
         <h3 style={{ color: "rgba(122, 209, 221, 1)" }}>
-          M.SC SOFTWARE ENGINEERING & MANAGEMENT
+          M.SC SOFTWARE ENGINEERING 
         </h3>
         <h4 style={{ color: "rgba(122, 209, 221, 1)" }}>
           Innopolis University

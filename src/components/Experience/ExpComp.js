@@ -5,7 +5,7 @@ function ExpComp() {
     <Timeline lineColor={"#ddd"}>
       <TimelineItem
         key="001"
-        dateText="February 2020 – July 2022"
+        dateText="February 2020 – June 2022"
         dateInnerStyle={{ background: "rgba(122, 209, 221, 1)" }}
         bodyContainerStyle={{
           background: "#fff",
@@ -19,9 +19,9 @@ function ExpComp() {
         </h3>
         <h4 style={{ color: "rgba(122, 209, 221, 1)" }}>Remote</h4>
         <ul>
-        <li>I converted the UI/UX design  the design into re-usable react components</li>
-        <li>Worked along with the backend developer to make the best use of APIs to render assets data </li>
-        <li>Took responsiveness serious to make users have the best experience</li>
+        <li>I played a key role in building and maintaining a sophisticated wealth management platform using React. By leveraging my expertise in HTML, CSS, and JavaScript, I collaborated with cross-functional teams to design and implement a responsive and user-friendly interface.</li>
+        <li>I worked closely with UX designers to create intuitive and visually appealing interfaces that provided users with a seamless experience.</li>
+        <li>Collaborated with backend developers to ensure seamless integration of frontend and backend components on the users dashboard.</li>
         </ul>
       </TimelineItem>
       <TimelineItem
