@@ -67,7 +67,7 @@ export function Skills() {
                 </Center>
                 <Center>
                   <Text color="ocean" style={{ fontFamily: "Open Sans" }}>
-                    CSS
+                    Python
                   </Text>
                 </Center>
               </Carousel.Slide>
@@ -142,7 +142,7 @@ export function Skills() {
                 </Center>
                 <Center>
                   <Text color="ocean" style={{ fontFamily: "Open Sans" }}>
-                    Redux
+                    TypeScript
                   </Text>
                 </Center>
               </Carousel.Slide>

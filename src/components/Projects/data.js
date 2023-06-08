@@ -16,7 +16,7 @@ export const personal = [
   {
     src: pencilwriter,
     desc: "This is article writer app, submit a topic and the article will be written",
-    link: "https://benevolent-tarsier-e189cd.netlify.app"
+    link: "gpt3-writer-starter-snowy-six.vercel.app"
   },
 
   {
