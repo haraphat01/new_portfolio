@@ -78,13 +78,11 @@ export function HeroSection() {
             <Title className={classes.title}>
             
               Arafat Akata <br /> A{" "}
-              <span className={classes.highlight}>Software</span> Engineer
+              <span className={classes.highlight}>Software | Technical Support</span> Engineer
             </Title>
             <br/>
             <Text color="dimmed" mt="md">
-             <p>Looking for a Frontend Developer with a unique skill set? Look no further! With experience in DevOps and software architecture, I can help your team deliver high-quality software efficiently.
-
-As a Frontend Developer, I've honed my skills in HTML, CSS, JavaScript, and React to create beautiful and functional user interfaces. But I also understand the entire software development lifecycle, and I'm well-versed in DevOps tools like Docker and Kubernetes.</p>
+             <p>Highly skilled and motivated Technical Support Engineer with a strong background in software engineering, providing exceptional customer service and resolving complex technical issues. Seeking a challenging position that utilizes my technical expertise, communication skills, and problem-solving abilities to contribute to the success of a dynamic organization. But I also understand the entire software development lifecycle, and I'm well-versed in DevOps tools like Docker, Github Action, Terraform and Kubernetes.</p>
             </Text>
 
             <List

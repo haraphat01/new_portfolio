@@ -36,13 +36,16 @@ function ExpComp() {
         }}
       >
         <h3 style={{ color: "rgba(122, 209, 221, 1)" }}>
-        Product Manager, Coin Consults
+        Technical Support Enginner, Coin Consults
         </h3>
         <h4 style={{ color: "rgba(122, 209, 221, 1)" }}>Kwara, Nigeria</h4>
         <ul>
-          <li>I increased the number of users to over 1000 in the first six months of launching the product</li>
-          <li>Managed a team of two developers and ensured no milestone was missed, and the product was launched at the exact estimated date.</li>
-          <li>I wrote the persona and user stories for the product, went to the field to collect the primary data needed during the requirement-gathering stage and developed the product’s requirement documents.</li>
+          <li>Resolved hardware and software technical issues, achieving a 98% customer satisfaction rating.</li>
+          <li>Provided technical support to customers via phone, email, and live chat, ensuring prompt and effective resolution of their technical issues.</li>
+          <li>Escalated critical issues to the appropriate teams and follow up to ensure timely resolution.</li>
+          <li>Collaborated with the development team to identify and communicate recurring issues and suggest improvements to enhance product usability and customer satisfaction.</li>
+          <li>Created and maintained technical documentation, reducing customer inquiries by 20%.</li>
+          <li>Acted as a liaison between customers and development teams, providing feedback and insights to improve product quality and user experience.</li>
           
         </ul>
       </TimelineItem>
